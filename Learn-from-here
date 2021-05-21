@@ -1,0 +1,21 @@
+#1 To install opencv-contrib-python library use thr following command in your command shell or command prompt
+--> pip install opencv-contrib-python
+#2 Algo1 - Fisher face analyzer
+--> It extracts principle components that separates one individual from another
+--> Generates feature vector of facial image data used by the system and then match
+    vector traits of training image with vector characteristics of test image using euclidean
+    distance formula
+#3  LBPHFaceRecognizer (LBP)
+--> is an efficient texture operator which labels
+    the pixels of an image by thresholding the neighbourhood pixels and
+    coverts them to binary values and later to decimal.
+--> Parameters - Radius,neighbour,X grid , Y Grid.
+#4 Algorithm
+1) Load face detection algorithm
+2) Load classifier for face recognition
+3) Training classifier for dataset
+4) Reading from camera and pre processing
+5) Face detection by its algorithm
+6) Predicting face by loading frame into model
+7) Displays recognized class with its accuracy :)
+
